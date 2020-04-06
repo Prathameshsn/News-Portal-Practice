@@ -1,0 +1,5 @@
+<h3>News Details</h3>
+<img *ngIf="newsDetails.imgUrl" class="img" src="{{newsDetails.imgUrl}}">
+<img *ngIf="!newsDetails.imgUrl" class="img" src="../../../assets/images/no-image.png">
+<h3><u>{{newsDetails.title}}</u></h3>
+<p>{{newsDetails.description}}</p>

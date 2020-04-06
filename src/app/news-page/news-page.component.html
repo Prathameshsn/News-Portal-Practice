@@ -1,0 +1,17 @@
+<div class="header">
+    <button mat-button [matMenuTriggerFor]="aboveMenu">International</button>
+    <mat-menu #aboveMenu="matMenu" yPosition="above">
+      <button mat-menu-item>Item 1</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
+  
+    <button mat-button routerLink="/news//country">Country</button>
+  
+    <button mat-button routerLink="/news//entertaintment">Entertaintment</button>
+  
+    <button mat-button routerLink="/news//sports">Sports</button>
+  
+    <button mat-button routerLink="/news/photo-galary">Photo Galary</button>
+  </div>
+
+  <router-outlet></router-outlet>

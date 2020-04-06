@@ -1,0 +1,8 @@
+<div class="mainContent">
+  <div class="newsBlock">
+    <img class="img" src="../../../assets/images/no-image.png">
+    <div *ngFor="let news of newsDetails" style="padding-bottom: 5px;">
+      - <a routerLink='/news/details/{{news.id}}'> {{news.title}}</a>
+    </div>
+  </div>
+</div>

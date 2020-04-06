@@ -1,0 +1,21 @@
+{
+    "code": 200,
+    "result": [
+        {
+            "title": "title1",
+            "description": "title1",
+            "img": "",
+            "video": "",
+            "isBreaking": false,
+            "isNew": false    
+        },
+        {
+            "title": "title2",
+            "description": "title1",
+            "img": "",
+            "video": "",
+            "isBreaking": false,
+            "isNew": false    
+        }
+    ]
+}
